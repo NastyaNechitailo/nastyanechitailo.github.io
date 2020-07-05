@@ -111,11 +111,11 @@ input:focus {
     color: #2c71b8;
 }
 .basket {
-    width: 40px;
-    height: 40px;
     margin: 5px 0 5px 30px;
 }
 .basket a {
+    height: 40px;
+    width: 40px;
     display: block;
     background-color: #fff;
 }
