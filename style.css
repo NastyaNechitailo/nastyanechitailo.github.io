@@ -171,7 +171,7 @@ input:focus {
     right: 10px;
     border: 1px solid #2c71b8;
 }
-/* .text {
+.text {
     color: #ffffff;
 }
 .text h3 {
@@ -182,4 +182,4 @@ input:focus {
 }
 .text span {
     font-weight: bold;
-} */
+}
