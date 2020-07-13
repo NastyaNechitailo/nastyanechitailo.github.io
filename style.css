@@ -10,6 +10,11 @@ input:active,
 input:focus {
     outline: none;
 }
+button,
+button:active,
+button:focus {
+    outline: none;
+}
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -172,30 +177,40 @@ input:focus {
     height: 180px;
     background-color: rgba(255, 255, 255, 0.75);
 }
-.images img {
+.images button {
+    padding: 0;
+    border: none;
     position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
 }
 .device {
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
 }
+.option-btn {
+    top: 10px;
+    right: 10px;
+}
 .option {
     width: 30px;
     height: 30px;
     padding: 4px;
-    top: 10px;
-    right: 10px;
     border: 1px solid #2c71b8;
+}
+.like-btn {
+    top: 50px;
+    right: 10px;
 }
 .like {
     width: 30px;
     height: 30px;
     padding: 5px;
-    top: 50px;
-    right: 10px;
     border: 1px solid #2c71b8;
 }
 .text {
