@@ -36,6 +36,9 @@ input:focus {
 .col-md-6 {
     width: 50%;
 }
+.col-md-9 {
+    width: 75%;
+}
 .header {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 25px 0;
@@ -62,20 +65,21 @@ input:focus {
     height: 50px;
     text-align: center;
 }
-.menu-block:hover {
+.menu-li:hover .menu-block {
     color: #ffffff;
     background-color: #2c71b8;
-}
-.menu li:hover .menu2 {
-    opacity: 1;
 }
 .menu-products {
     position: relative;
 }
+.menu-products:hover .menu2 {
+    display: block;
+}
 .menu2 {
-    opacity: 0;
+    display: none;
     position: absolute;
     background-color: #2c71b8;
+    z-index: 1;
 }
 .menu2-block {
     color: #ffffff;
@@ -140,8 +144,28 @@ input:focus {
 .basket img {
     padding: 10px;
 }
+.device-type {
+    height: 345px;
+}
+.small-nav {
+    margin: 30px 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.small-nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 .block {
     border: 1px solid #ffffff;
+    margin-top: 30px;
 }
 .images {
     position: relative;
