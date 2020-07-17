@@ -38,11 +38,20 @@ button:focus {
 .col-md-3 {
     width: 25%;
 }
+.col-md-4 {
+    width: 33.33%;
+}
 .col-md-6 {
     width: 50%;
 }
+.col-md-8 {
+    width: 66.66%;
+}
 .col-md-9 {
     width: 75%;
+}
+.col-md-12 {
+    width: 100%;
 }
 .header {
     background-color: rgba(255, 255, 255, 0.75);
@@ -123,14 +132,16 @@ button:focus {
     position: absolute;
     display: block;
     right: 0;
-    width: 30px;
-    height: 30px;
     margin: 4px;
     background-color: #2c71b8;
 }
-.search img {
-    padding: 9px 8px;
-} 
+.search-img {
+    background-image: url("demoShop/icon (4).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
 .search input::-webkit-input-placeholder {
     color: #2c71b8;
 }
@@ -141,23 +152,43 @@ button:focus {
     margin: 5px 0 5px 30px;
 }
 .basket a {
-    height: 40px;
-    width: 40px;
+    position: relative;
     display: block;
     background-color: #fff;
 }
-.basket img {
-    padding: 10px;
+.basket-img {
+    background-image: url("demoShop/icon (1).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 40px;
+}
+.four {
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #2c71b8;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    left: -10px;
+}
+.slide {
+    height: 400px;
 }
 .device-type {
     height: 345px;
 }
-.small-nav {
+.breadcrumbs {
     margin: 30px 0;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
 }
-.small-nav a {
+.breadcrumbs a {
     font-size: 14px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
@@ -177,14 +208,6 @@ button:focus {
     height: 180px;
     background-color: rgba(255, 255, 255, 0.75);
 }
-.images button {
-    padding: 0;
-    border: none;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-}
 .device {
     position: absolute;
     top: 0;
@@ -194,23 +217,43 @@ button:focus {
     margin: auto;
 }
 .option-btn {
+    position: absolute;
     top: 10px;
     right: 10px;
+    display: block;
 }
 .option {
+    background-image: url("demoShop/icon (8).png");
+    background-repeat: no-repeat;
+    background-position: center;
     width: 30px;
     height: 30px;
-    padding: 4px;
     border: 1px solid #2c71b8;
 }
+.like:hover  {
+    background-image: url("demoShop/icon (7).png");
+    background-color: #2c71b8;
+}
+.option:hover {
+    background-image: url("demoShop/icon (6).png");
+    background-color: #2c71b8;
+}
 .like-btn {
+    padding: 0;
+    border: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
     top: 50px;
     right: 10px;
 }
 .like {
+    background-image: url("demoShop/icon (5).png");
+    background-repeat: no-repeat;
+    background-position: center;
     width: 30px;
     height: 30px;
-    padding: 5px;
     border: 1px solid #2c71b8;
 }
 .text {
@@ -246,15 +289,45 @@ button:focus {
     color: #ffffff;
     font-weight: bold;
     font-size: 21px;
-}
-.button1 {
     background-color: #2c71b8;
     border: 1px solid #ffffff;
+}
+.text button:hover {
+    background-color: rgba(255,255,255,0.2);
+    border: none;
+}
+.button1 {
     margin: 15px;
     margin-bottom: 0;
 }
 .button2 {
-    background-color: rgba(255,255,255,0.2);
-    border: none;
     margin: 15px;
+}
+.basket2 {
+    background-image: url("demoShop/icon (2).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 15px;
+    height: 18px;
+    margin-left: 12px;
+}
+.loading {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+.footer {
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 100px;
+}
+.footer p {
+    text-align: center;
+    line-height: 100px;
+    font-size: 21px;
+    color: #2c71b8;
 }
