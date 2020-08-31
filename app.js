@@ -1,6 +1,6 @@
 let productsCountEl = document.getElementById("products-count");
 
-let addToCartButtons = document.querySelectorAll(".button2")[0];
+let addToCartButtons = document.querySelectorAll(".button2");
 
 for(let i = 0; i < addToCartButtons.length; i++) {
     addToCartButtons[i].addEventListener("click", function(){
